@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function Card({ img, location, distance }) {
   return (
-    <div className="flex items-center mt-5 space-x-4 rounded-xl cursor-pointer bg-gray-100 p-2 hover:bg-gray-200 hover:scale-105 transition transform duration-200">
+    <div className="flex items-center mt-5 space-x-4 rounded-xl cursor-pointer bg-gray-100 p-2 hover:bg-gray-200 hover:scale-105 transition transform duration-200 ease-out">
       
         {/* Left */}
         <div className="relative w-16 h-16">
@@ -15,7 +15,7 @@ export default function Card({ img, location, distance }) {
         {/* Right */}
         <div className="">
             <h2 className="font-bold">{location}</h2>
-            <h2>{distance}</h2>
+            <h2 className="text-gray-500">{distance}</h2>
         </div>
      
     </div>
