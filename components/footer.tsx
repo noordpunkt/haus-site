@@ -27,6 +27,7 @@ export default function Footer() {
         <p>Europe</p>
         <p>North America</p>
         <p>Latin America</p>
+        <p>Asia</p>
         </div>
 
 
