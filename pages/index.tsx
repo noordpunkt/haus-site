@@ -6,6 +6,7 @@ import Banner from "../components/banner";
 import Card from "../components/card";
 import CardMedium from "../components/card-medium";
 import CardLarge from "../components/card-large";
+import Footer from "../components/footer";
 
 export default function IndexPage({ exploreRequest, liveAnywhere }) {
   return (
@@ -54,15 +55,22 @@ export default function IndexPage({ exploreRequest, liveAnywhere }) {
         </section>
 
 
-        <section className="pt-6">
+        <section className="">
         
-        <CardLarge img="https://links.papareact.com/4cj" />
+        <CardLarge 
+        img="https://links.papareact.com/4cj"
+        title="The Greatest Outdoors" 
+        description="curated by Haus."
+        buttonText="Get inspired"
+        />
 
         </section>
 
-       
 
       </main>
+
+      <Footer/>
+      
     </div>
   );
 }
