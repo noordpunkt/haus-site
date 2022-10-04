@@ -1,0 +1,11 @@
+@tailwind components;
+
+@layer components {
+
+    .button {
+
+        @apply hidden lg:inline-flex mt-4 px-4 py-2 border rounded-full text-sm cursor-pointer shadow-sm hover:scale-105 transition duration-150 mr-3
+
+    }
+
+}

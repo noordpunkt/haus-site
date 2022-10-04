@@ -20,7 +20,7 @@ export default function CardLarge({ img, title, description, buttonText }) {
         <h3 className="font-bold text-2xl">{title}</h3>
         <p>{description}</p>
 
-        <button className="bg-gray-900 text-white mt-2 px-4 py-2 rounded-lg">
+        <button className="bg-gray-900 text-white mt-2 px-4 py-2 rounded-full hover:scale-105 transition duration-150">
           {buttonText}
         </button>
       </div>

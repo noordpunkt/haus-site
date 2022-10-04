@@ -17,13 +17,15 @@ export default function IndexPage({ exploreRequest, liveAnywhere }) {
 
       {/* Header */}
 
-      <Header />
+      <Header
+      placeholder={"Search..."}
+      />
 
       {/* Hero Banner */}
 
       <Banner />
 
-      <main className="max-w-4xl mx-auto px-8">
+      <main className="max-w-6xl mx-auto px-8">
         <section className="pt-6">
           <h2 className="text-3xl font-bold pb-5">Explore Nearby</h2>
 
